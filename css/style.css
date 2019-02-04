@@ -1,0 +1,319 @@
+html{
+  font-size: 8px;
+}
+
+nav{
+  font-family: 'Sarabun', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 22%);
+}
+
+body{
+  background-color: hsl(177, 0%, 95%);
+}
+
+p{
+  font-family: 'Questrial', sans-serif;
+  font-size: 2.5rem;
+}
+
+i{
+  font-family: 'Overpass';
+  font-style: italic;
+  font-weight: 600;
+}
+
+ul{
+  list-style: url('../resources/tick-icon.svg');
+  padding-left: 4rem;
+  padding-top: .5rem;
+}
+
+.banner{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -1rem;
+}
+
+.container-fluid{
+  background-color: hsl(0, 0%, 82%);
+  font-size: 120%;
+  padding-left: 0;
+}
+
+.dropdown-menu{
+  background-color: hsl(0, 0%, 82%);
+}
+
+.navbar-default .navbar-nav>li>a, .dropdown-menu{
+  color: hsl(0, 0%, 22%);
+}
+
+.navbar-left li a{
+  border-right: solid white 1px;
+}
+/*.navbar-left li a:active{
+  background-color: hsl(171, 97%, 36%);
+}- color after click*/
+
+.navbar-brand{
+  display: none;
+}
+
+ #first-option-tab{
+   background-color: hsl(176, 58%, 49%);
+   color: white;
+ }
+
+.navbar-collapse{
+  padding-left: 0;
+}
+
+.na, .navbar-nav, .navbar-left{
+  padding-top: 0;
+}
+@media only screen and (max-width: 767px){
+  nav{
+    font-size: 2rem;
+    color: hsl(0, 0%, 22%);
+  }
+
+  .banner{
+    margin-top: 0;
+  }
+
+  .navbar-brand{
+    display: block;
+  }
+
+  .navbar-default .navbar-brand{
+    color: hsl(0, 0%, 22%);
+  }
+
+  #LT, #RUS{
+    color: hsl(0, 0%, 32%);
+  }
+
+  #LT:hover, #RUS:hover{
+    color: black;
+    text-decoration: underline;
+  }
+
+  .container-fluid, .navbar-collapse{
+    padding-left: 15px;
+  }
+}
+/*--------------------------------------*/
+.text-about-company{
+  text-align: center;
+  padding: 3rem;
+}
+
+.text-about-company h1{
+  margin-bottom: 0;
+}
+
+.text-about-company img{
+  width: 36rem;
+  padding: 1rem 0 4rem 0;
+}
+
+.text-about-company p{
+  width: 90%;
+  margin: auto;
+}
+
+.our-values{
+  width: 35%;
+  padding-left: 2rem;
+}
+
+.our-values h3{
+  padding: 1rem;
+  text-align: center;
+  border: solid .25rem;
+  border-color: hsl(172, 100%, 34%);
+  border-radius: 2rem;
+}
+
+.map{
+  margin: auto;
+  margin-right: -0.5%;
+  width: 60%;
+  height: 60%;
+}
+
+.jumbotron-AA {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  background-color: white;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 767px){
+  .jumbotron-AA{
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+
+  .our-values{
+    width: 100%;
+  }
+
+  .map{
+    width: 100%;
+    margin-top: 3rem;
+    margin-right: 0;
+  }
+}
+
+/*--------------------------------------------*/
+footer{
+  height: 15rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
+
+footer p{
+   font-family: 'Sarabun', sans-serif;
+   font-size: 1.8rem;
+   font-weight: 500;
+   padding-right: 1rem;
+}
+
+@media only screen and (max-width: 767px){
+  footer{
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer p{
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+}
+/*----------------- Contact Us ---------------------------*/
+.contacts_map{
+  height: 50rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8rem;
+  background-color: hsl(176, 47%, 74%);
+}
+
+.contact-us{
+  text-align: center;
+  width: 35%;
+  height: auto;
+  margin: auto;
+  border: solid .25rem;
+  border-color: hsl(172, 100%, 94%);
+  /*border-radius: .5rem;*/
+  padding-left: 1rem;
+  background-color: white;
+}
+
+.contact-us h1{
+  color: hsl(0, 0%, 32%);
+  font-size: 8rem;
+}
+
+.contact-us p{
+  padding-left: 1rem;
+  color: hsl(0, 0%, 22%);
+}
+
+.contact-us b{
+  color: hsl(0, 0%, 32%);
+  font-size: 2.6rem;
+}
+
+.office-map{
+  width: 55%;
+}
+
+@media only screen and (max-width: 767px){
+  .contacts_map{
+    flex-direction: column;
+    height: auto;
+    margin-top: -3rem;
+    padding-top: 2rem;
+  }
+
+  .contact-us{
+    width: 80%;
+  }
+
+  .contact-us p{
+    font-size: 2rem;
+  }
+
+  .contact-us h1{
+    font-size: 4.5rem;
+  }
+
+  .contact-us b{
+    font-size: 2.2rem;
+  }
+
+  .office-map{
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  iframe{
+    width: 90rem;
+  }
+}
+
+/*---- Services / Career opportunities / Equipment for sale ----*/
+
+.coming-soon{
+  text-align: center;
+  background-color: hsl(176, 47%, 74%);
+  height: 40rem;
+  margin-top: 8rem;
+}
+
+.coming-soon h1{
+  padding-top: 15rem;
+}
+
+.coming-soon-rus h1{
+  margin: auto;
+}
+
+/*----------------------- Russian Text ------------------*/
+
+.text-rus p{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2.7rem;
+  line-height: 3.8rem;
+  font-variant: no-common-ligatures;
+}
+
+.text-rus li{
+  margin-bottom: 2rem;
+}
+
+.text-rus h4{
+  font-size: 2.7rem;
+}
+
+.text-rus h3{
+  font-size: 3.3rem;
+}
+
+#text-rus{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 2.7rem;
+  color: hsl(0, 0%, 28%);
+}
