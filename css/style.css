@@ -74,7 +74,7 @@ ul{
 .na, .navbar-nav, .navbar-left{
   padding-top: 0;
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1024px){
   nav{
     font-size: 2rem;
     color: hsl(0, 0%, 22%);
@@ -153,7 +153,7 @@ ul{
   overflow: hidden;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1024px){
   .jumbotron-AA{
     flex-direction: column;
     padding-top: 2rem;
@@ -186,7 +186,7 @@ footer p{
    padding-right: 1rem;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1024px){
   footer{
     justify-content: center;
     align-items: center;
@@ -238,7 +238,7 @@ footer p{
   width: 55%;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1024px){
   .contacts_map{
     flex-direction: column;
     height: auto;
@@ -316,4 +316,86 @@ footer p{
   font-weight: 500;
   font-size: 2.7rem;
   color: hsl(0, 0%, 28%);
+}
+
+@media (max-width: 1025px) {
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+       .navbar-nav .open .dropdown-menu > li > a,
+       .navbar-nav .open .dropdown-menu .dropdown-header {
+           padding: 5px 15px 5px 25px;
+       }
+       .dropdown-menu > li > a {
+           display: block;
+           padding: 3px 20px;
+           clear: both;
+           font-weight: normal;
+           line-height: 1.42857143;
+           color: #933;
+           white-space: nowrap;
+       }
+       .navbar-header {
+           float: none;
+       }
+       .navbar-toggle {
+           display: block;
+       }
+       .navbar-collapse {
+           border-top: 1px solid transparent;
+           box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+           padding-right: 0;
+           padding-left: 0;
+           width: 125%;
+       }
+
+       .navbar-collapse>ul>li>a {
+         padding-left: 15px;
+       }
+
+       .navbar-collapse.collapse {
+           display: none!important;
+       }
+       .navbar-nav {
+           float: none!important;
+           /*margin: 7.5px -15px;*/
+           margin: 7.5px 50px 7.5px -15px
+       }
+       .navbar-nav>li {
+           float: none;
+       }
+       .navbar-nav>li>a {
+           padding-top: 10px;
+           padding-bottom: 10px;
+       }
+       .navbar-text {
+           float: none;
+           margin: 15px 0;
+       }
+       /* since 3.1.0 */
+       .navbar-collapse.collapse.in {
+           display: block!important;
+       }
+       .collapsing {
+           overflow: hidden!important;
+       }
+}
+
+@media (max-width: 768px) {
+  .navbar-left li {
+    margin-left: 15px!important;
+  }
+  .dropdown{
+    margin-left: 15px!important;
+  }
 }
