@@ -81,6 +81,10 @@ ul{
   padding-top: 0;
 }
 @media only screen and (max-width: 1024px){
+  header img{
+    height: 20rem;
+  }
+
   nav{
     font-size: 2rem;
     color: hsl(0, 0%, 22%);
@@ -91,7 +95,14 @@ ul{
   }
 
   button{
-    margin-top: 1.6rem !important;
+    margin-top: 2rem !important;
+    height: 8rem;
+    width: 6rem;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    height: .5rem;
+    width: 3rem;
   }
 
   .navbar-brand{
@@ -101,8 +112,8 @@ ul{
   .navbar-default .navbar-brand{
     color: hsl(0, 0%, 22%);
     font-size: 3.6rem;
-    margin-top: .5rem;
-    height: 7rem;
+    margin-top: 2.5rem;
+    height: 10rem;
   }
 
   #LT, #RUS, #ENG{
@@ -287,12 +298,12 @@ footer p{
 
   .office-map{
     width: 100%;
-    margin-top: 1rem;
-    margin-left: 6rem;
+    margin: 1rem 0 0 1rem;
   }
 
   iframe{
-    width: 90rem;
+    width: 100%;
+    margin-left: -1rem;
   }
 }
 
@@ -430,6 +441,11 @@ footer p{
        .collapsing {
            overflow: hidden!important;
        }
+/*----------------------- Bugs ------------------*/
+  body.modal-open {
+    overflow: hidden;
+    position: fixed;
+  }
 }
 
 @media (max-width: 768px) {
