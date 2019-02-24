@@ -71,7 +71,9 @@ ul{
  #first-option-tab{
    background-color: hsl(176, 58%, 49%);
    color: white;
-   overflow-x: hidden;
+   width: 50rem;
+   border: 0;
+   margin: auto;
  }
 
 .navbar-collapse{
@@ -129,6 +131,12 @@ ul{
 
   .container-fluid, .navbar-collapse{
     padding-left: 15px;
+  }
+
+  .navbar-left li a{
+    border-right: 0;
+    font-size: 3rem;
+    line-height: 1.5;
   }
 }
 /*--------------------------------------*/
@@ -409,8 +417,8 @@ footer p{
            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
            padding-right: 0;
            padding-left: 0;
-           width: 125%;
-           overflow-x: hidden;
+           width: 100%;
+           text-align: center;
        }
 
        .navbar-collapse>ul>li>a {
