@@ -275,24 +275,24 @@ footer p{
   margin: auto;
   border: solid .25rem;
   border-color: hsl(172, 100%, 94%);
-  /*border-radius: .5rem;*/
-  padding-left: 1rem;
+  padding: 3rem 1rem 3rem 0;
   background-color: white;
 }
 
 .contact-us h1{
   color: hsl(0, 0%, 32%);
-  font-size: 8rem;
+  font-size: 10rem;
 }
 
 .contact-us p{
   padding-left: 1rem;
   color: hsl(0, 0%, 22%);
+  font-size: 3rem;
 }
 
-.contact-us b{
+.contact-us p b{
   color: hsl(0, 0%, 32%);
-  font-size: 2.6rem;
+  font-size: 3.6rem;
 }
 
 .office-map{
@@ -312,11 +312,11 @@ footer p{
   }
 
   .contact-us p{
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .contact-us h1{
-    font-size: 4.5rem;
+    font-size: 5.5rem;
   }
 
   .contact-us b{
