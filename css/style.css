@@ -99,6 +99,7 @@ ul{
     height: 30rem;
     width: 140rem;
     margin-left: -4rem;
+    overflow-x: hidden;
   }
 
   button{
