@@ -71,9 +71,6 @@ ul{
  #first-option-tab{
    background-color: hsl(176, 58%, 49%);
    color: white;
-   width: 50rem;
-   border: 0;
-   margin: auto;
  }
 
 .navbar-collapse{
@@ -84,6 +81,13 @@ ul{
   padding-top: 0;
 }
 @media only screen and (max-width: 1024px){
+  #first-option-tab{
+    background-color: hsl(176, 58%, 49%);
+    color: white;
+    width: 50rem;
+    border: 0;
+    margin: auto;
+  }
 
   nav{
     font-size: 2rem;
