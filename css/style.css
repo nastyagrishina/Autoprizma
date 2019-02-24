@@ -71,6 +71,7 @@ ul{
  #first-option-tab{
    background-color: hsl(176, 58%, 49%);
    color: white;
+   overflow-x: hidden;
  }
 
 .navbar-collapse{
@@ -409,6 +410,7 @@ footer p{
            padding-right: 0;
            padding-left: 0;
            width: 125%;
+           overflow-x: hidden;
        }
 
        .navbar-collapse>ul>li>a {
