@@ -84,9 +84,6 @@ ul{
   padding-top: 0;
 }
 @media only screen and (max-width: 1024px){
-  header img{
-    height: 20rem;
-  }
 
   nav{
     font-size: 2rem;
@@ -95,6 +92,8 @@ ul{
 
   .banner{
     margin-top: 0;
+    height: 20rem;
+    width: 120rem;
   }
 
   button{
