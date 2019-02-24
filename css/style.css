@@ -96,8 +96,9 @@ ul{
 
   .banner{
     margin-top: 0;
-    height: 20rem;
-    width: 120%;
+    height: 30rem;
+    width: 140rem;
+    margin-left: -4rem;
   }
 
   button{
@@ -124,7 +125,8 @@ ul{
 
   #LT, #RUS, #ENG{
     color: hsl(0, 0%, 32%);
-    font-size: 2rem;
+    font-size: 2.7rem;
+    padding: 1.5rem;
   }
 
   #LT:hover, #RUS:hover, #ENG:hover{
@@ -140,6 +142,10 @@ ul{
     border-right: 0;
     font-size: 3rem;
     line-height: 1.5;
+  }
+
+  .dropdown-toggle{
+    font-size: 2.7rem;
   }
 }
 /*--------------------------------------*/
@@ -345,11 +351,13 @@ footer p{
 @media only screen and (max-width: 1024px){
   .coming-soon{
     margin-top: 3rem;
+    height: auto;
+    padding: 4rem 2rem 2rem;
   }
 
-  .coming-soon-lt h1{
-    padding-top: 10rem;
-    padding-bottom: 2rem;
+  .coming-soon h1, .coming-soon h4, .coming-soon a{
+    font-size: 4rem;
+    padding: 4rem 2rem;
   }
 }
 
