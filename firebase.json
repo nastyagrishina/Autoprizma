@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "Autoprizma",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
