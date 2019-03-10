@@ -195,6 +195,49 @@ ul{
   border-radius: 2rem;
 }
 
+/*--------------Services Section------------------*/
+
+.services-that-we-offer, .services_our-advantages_img{
+  width: 47%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.services-that-we-offer h3, .services_our-advantages h3{
+  padding: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+  border: solid .25rem;
+  border-color: hsl(172, 100%, 34%);
+  border-radius: 2rem;
+  background-color: rgba(251, 253, 254, 0.88);
+}
+
+.services-that-we-offer ul, .services_our-advantages ul{
+  border: .25rem;
+  border-radius: 2rem;
+  background-color: rgba(251, 253, 254, 0.79);
+  margin: 3rem 0;
+}
+
+.services_our-advantages ul li{
+  line-height: 160%;
+}
+
+#GPS, #CMR{
+  line-height: 150%;
+}
+
+#CMR{
+  padding-bottom: 2rem;
+  margin: 0;
+}
+
+.services_our-advantages_img img{
+  margin-left: 40%;
+}
+/*--------------End of Services Section ------------------*/
+
 .map{
   margin: auto;
   margin-right: -0.5%;
@@ -210,20 +253,45 @@ ul{
   overflow: hidden;
 }
 
+/*--------------Services Section------------------*/
+.jumbotron-S{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  background-color: white;
+  overflow: hidden;
+  flex-direction: row;
+  background-image:radial-gradient(rgba(235, 245, 250, 0.57), rgba(235, 245, 250, 0.57)), url(../resources/car-lines.jpeg);
+  background-color: rgba(235, 254, 255, 0.5);
+  background-position: center;
+  background-size: cover;
+}
+/*--------------End of Services Section------------------*/
+
 @media only screen and (max-width: 1024px){
-  .jumbotron-AA{
+  .jumbotron-AA, .jumbotron-S{
     flex-direction: column;
     padding-top: 2rem;
   }
 
-  .our-values{
+  .our-values, .services-list{
     width: 100%;
   }
 
-  .our-values h3{
+  .our-values h3, .services-list h3{
     margin-right: 2rem;
   }
 
+/*--------------Services Section mob------------------*/
+  .services-that-we-offer, .services_our-advantages_img{
+    width: 100%;
+  }
+
+  .services_our-advantages_img img{
+    display: flex;
+    justify-content: center;
+  }
+/*--------------End of Services Section mob------------------*/
   .map{
     width: 100%;
     margin-top: 3rem;
@@ -231,7 +299,137 @@ ul{
   }
 }
 
-/*--------------------------------------------*/
+/*--------------Career Section--------------------------------*/
+
+#underline{
+  width: 49rem;
+  height: 6rem;
+}
+
+.our-career-opportunities{
+  background-color: white;
+  padding: 1rem 0 3rem 2rem;
+}
+
+.career-opportunities{
+  padding-top: 1.8rem;
+}
+
+#career{
+  font-size: 3.8rem;
+  font-style: italic;
+  list-style: inside;
+  text-align: left;
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 1024px){
+  #career{
+    font-size: 3.5rem;
+  }
+}
+
+/*--------------end of Career Section-------------------------*/
+
+/*-----------------------Equipment-------------------------*/
+.Actros{
+  margin-top: 5rem;
+  background-color: hsl(176, 47%, 74%);
+  display: flex;
+  flex-direction: row;
+}
+
+.Actros img{
+  width: 580px;
+  height: 300px;
+  box-shadow: -2px 4px 7px grey;
+}
+
+.actros-text{
+  padding-left: 3rem;
+}
+
+.actros-text p{
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.price_and_more{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-bottom: 1rem;
+  align-items: baseline;
+  width: 40rem;
+  justify-content: space-between;
+}
+
+.price{
+  font-size: 2.97rem;
+}
+
+#more-button{
+  font-size: 3rem;
+  display: block;
+  width: 19rem;
+  height: 5rem;
+  border-radius: 5px;
+  background-color: hsl(205, 82%, 57%);
+  text-align: center;
+  color: MintCream;
+  transition-property: background-color;
+  transition-duration: 750ms;
+}
+
+#more-button:hover {
+  background-color: hsl(43, 97%, 53%);
+}
+
+@media only screen and (max-width: 1024px){
+  h3{
+    font-size: 3.8rem;
+  }
+
+  h5{
+    font-size: 2rem;
+  }
+
+  .Actros{
+    flex-direction: column;
+  }
+
+  .Actros img{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 2rem;
+    border: .5rem solid white;
+  }
+
+  .price_and_more{
+    width: 83%;
+    padding-bottom: 3rem;
+  }
+
+  .price{
+    font-size: 3.7rem;
+    margin-left: 4rem;
+  }
+
+  #more-button{
+    width: 32rem;
+    height: 6rem;
+    padding-top: 1rem;
+    padding-bottom: .6rem;
+  }
+
+}
+
+/*-----------------------end of Equipment-------------------------*/
+
+/*-------------------Footer---------------------*/
 footer{
   height: 15rem;
   display: flex;
@@ -339,8 +537,8 @@ footer p{
 .coming-soon{
   text-align: center;
   background-color: hsl(176, 47%, 74%);
-  height: 40rem;
-  margin-top: 8rem;
+  height: 25rem;
+  /*margin-top: 8rem;*/
 }
 
 .coming-soon h1{
