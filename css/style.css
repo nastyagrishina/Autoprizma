@@ -270,6 +270,10 @@ ul{
 /*--------------End of Services Section------------------*/
 
 @media only screen and (max-width: 1024px){
+  .text-about-company p{
+    width: auto;
+  }
+
   .jumbotron-AA, .jumbotron-S{
     flex-direction: column;
     padding-top: 2rem;
@@ -683,9 +687,5 @@ footer p{
   }
   .dropdown{
     margin-left: 15px!important;
-  }
-
-  .text-about-company p{
-    width: auto;
   }
 }
