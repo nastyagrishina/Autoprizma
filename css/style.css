@@ -270,13 +270,13 @@ ul{
 /*--------------End of Services Section------------------*/
 
 @media only screen and (max-width: 1024px){
-  .index-mob{
-  ;
+  /*#index-mob{
+   min-width: 1000px;
   }
 
   .text-about-company p{
-    width: 116,5rem;
-  }
+
+  }*/
 
   .jumbotron-AA, .jumbotron-S{
     flex-direction: column;
