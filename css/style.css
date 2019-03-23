@@ -684,4 +684,8 @@ footer p{
   .dropdown{
     margin-left: 15px!important;
   }
+
+  .text-about-company p{
+    width: auto;
+  }
 }
